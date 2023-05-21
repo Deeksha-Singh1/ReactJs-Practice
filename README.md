@@ -4,3 +4,4 @@ Topics covered:
 2. JSX and Props in React JS
 3. Componenets in React JS
 4. Forms and Use state in React
+5. Project: Daily Goals
