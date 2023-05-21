@@ -1,7 +1,12 @@
 nav{
   background-color: rgb(194, 64, 85);
+  color: aliceblue;
+  padding: 10px;
 }
 
-div{
+.btn{
+  padding: 20;
+  border:black;
   background-color: teal;
+  margin: 5px;
 }
