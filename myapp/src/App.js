@@ -1,13 +1,11 @@
 import './App.css';
+import Header from './Components/Header'
 
-function MyComponenet(){
-  return <div> my component</div>
-} 
 
 function App() {
   return (
-  <div>Hello Guys
-    <MyComponenet/>
+  <div>
+    hello <Header/> guyz
   </div>
   );
 }
