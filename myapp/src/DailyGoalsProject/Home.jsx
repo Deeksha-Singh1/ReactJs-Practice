@@ -15,8 +15,8 @@ const Home = () => {
   const submitHandler = (e)=>{
      e.preventDefault();
      setTasks([...tasks,{title, description }]);
+     setTitle("")
      setDesc("")
-     setTasks("")
 
   };
 

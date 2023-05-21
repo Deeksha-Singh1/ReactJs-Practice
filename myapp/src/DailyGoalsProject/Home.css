@@ -23,7 +23,8 @@ nav{
 .container > h1{
   text-align: center;
   margin: 30px;
-  font-size: 2.4rem;
+  font-size: 2rem;
+  
 }
 
 .container > form{
@@ -37,7 +38,7 @@ nav{
   padding: 10px;
   border: 1px solid rgba(0,0,0,0.214);
   margin: 10px 0;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .btn{

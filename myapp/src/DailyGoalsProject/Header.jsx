@@ -3,7 +3,7 @@ import './Home.css';
 
 const Header = () => {
   return (
-    <nav>Get Ready to complete your daily code</nav>
+    <nav>Get Ready to complete your daily tasks</nav>
   )
 }
 
