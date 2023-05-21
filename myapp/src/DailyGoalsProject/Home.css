@@ -1,0 +1,80 @@
+*{
+  border-radius: 11px;
+}
+
+nav{
+  background-color: rgb(222, 85, 108);
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.container{
+  background-color: rgb(97, 186, 186);
+  margin: auto;
+  min-height: 100vh;
+  width: 80%;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+  border-radius: 0%;
+}
+
+.container > h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.4rem;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+ input,
+ textarea,
+ .btn{
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.214);
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.btn{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(5, 1, 9);
+  color: beige;
+}
+
+
+.task{
+  display: flex;
+  align-items: center;
+  background-color: rgb(215, 185, 185);
+  padding: 24px;
+  margin: 17px;
+}
+
+.task  span{
+  color: grey;
+}
+
+.task > div{
+  width: 100%;
+}
+
+.task > button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+}
+
+.task button:hover{
+  background-color: red;
+}

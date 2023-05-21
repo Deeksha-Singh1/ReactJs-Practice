@@ -1,12 +1,11 @@
 import './App.css';
-import Header from './Components/Header'
-import Home from './Components/Home';
-
+import Home from './DailyGoalsProject/Home';
+import Header from './DailyGoalsProject/Header';
 
 function App() {
   return (
   <div>
-   <Header/> 
+    <Header/>
     <Home/>
   </div>
   );
