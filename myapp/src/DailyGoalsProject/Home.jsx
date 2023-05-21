@@ -42,7 +42,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h1>DAILY GOALS</h1>
+      <h1 className='dailyGoals'>DAILY GOALS</h1>
       <form onSubmit={submitHandler}>
         <input type="text" placeholder='Title' value={title}  onChange={onTitleChange}/>
         <textarea placeholder='Description' value={description} onChange={onDescChange}></textarea>
