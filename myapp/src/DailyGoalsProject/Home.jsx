@@ -5,7 +5,10 @@ import Task from './Task';
 
 const Home = () => {
 
-  const [tasks, setTasks]=useState([]);
+  const initialArr = localStorage.getItem("tasks") ? JSON.parse(localStorage.getItem("tasks")) : [];
+
+
+  const [tasks, setTasks]=useState(initialArr);
   const [title , setTitle]=useState("");
   const [description , setDesc]=useState("");
   
