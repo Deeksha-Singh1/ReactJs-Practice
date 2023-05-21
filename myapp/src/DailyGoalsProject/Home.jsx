@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import './Home.css';
 import Task from './Task';
 
@@ -14,8 +14,8 @@ const Home = () => {
   
   const submitHandler = (e)=>{
      e.preventDefault();
-
      setTasks([...tasks,{title, description }]);
+
   };
 
   const onTitleChange = (e)=>{
@@ -33,6 +33,10 @@ const Home = () => {
 
     setTasks(filteredArray);
   };
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
 
   return (
     <div className="container">
