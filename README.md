@@ -6,3 +6,4 @@ Topics covered:
 4. Forms and Use state in React
 5. Project: Daily Goals
 6. Routing in React Router Dom
+7. Project: Netflix clone
