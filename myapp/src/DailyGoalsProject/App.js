@@ -1,11 +1,10 @@
-import './App.css';
-import Home from './DailyGoalsProject/Home';
-import Header from './DailyGoalsProject/Header';
+import Home from './Home';
+import Header from './Header';
 import{BrowserRouter,Route,Routes} from "react-router-dom";
-import Contact from './DailyGoalsProject/Contact';
-import About from './DailyGoalsProject/About';
-import Footer from './DailyGoalsProject/Footer';
-import User from './DailyGoalsProject/User';
+import Contact from './Contact';
+import About from './About';
+import Footer from './Footer';
+import User from './User';
 
 function App() {
   return (
