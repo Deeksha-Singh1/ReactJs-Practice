@@ -1,9 +1,14 @@
 # ReactJs-Practice
 Topics covered:
 1. Introduction to React JS
-2. JSX and Props in React JS
-3. Componenets in React JS
-4. Forms and Use state in React
-5. Project: Daily Goals
-6. Routing in React Router Dom
-7. Project: Netflix clone
+2. NPM & NPX
+3. What is DOM
+4. JSX
+5. Components
+6. Props
+7. State
+8. Events handling
+9. binding
+10. Project- Counter
+11. Project- Daily Goals 
+

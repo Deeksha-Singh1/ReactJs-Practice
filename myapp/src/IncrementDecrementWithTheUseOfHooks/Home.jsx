@@ -1,6 +1,5 @@
-import React,{useState} from 'react';
-
-
+import React,{useState,useEffect} from 'react';
+import './App.css'
 
 function Home() {
 
@@ -13,6 +12,14 @@ const increment = ()=>{
 const decrement =()=>{
   setInputValue(inputValue-1) ;
 };
+
+useEffect(() => {
+ console.log("showng effect");
+ return ()=>{
+  console.log("hello");
+ }
+}, [inputValue]);
+
   return (
     <div>
        <input 
