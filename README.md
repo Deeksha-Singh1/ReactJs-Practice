@@ -11,4 +11,9 @@ Topics covered:
 9. binding
 10. Project- Counter
 11. Project- Daily Goals 
+12. Fragments in React
+13. List in React
+14. Key in React
+15. CSS module and inline stylesheet
+16. Forms in React
 
