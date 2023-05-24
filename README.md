@@ -18,4 +18,6 @@ Topics covered:
 16. Forms in React
 17. Routing in React
 18. Lifecycle methods in React
+19. HTTP GET Request -  Fetch data from Rest API
+
 

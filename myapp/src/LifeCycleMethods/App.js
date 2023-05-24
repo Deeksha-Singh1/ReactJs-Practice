@@ -6,7 +6,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        {/* <LifeCycleA/> */}
+        <LifeCycleA/>
         <Product favCol = {'pink'}/>
       </div>
     )
