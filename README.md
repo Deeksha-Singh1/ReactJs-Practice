@@ -17,4 +17,5 @@ Topics covered:
 15. CSS module and inline stylesheet
 16. Forms in React
 17. Routing in React
+18. Lifecycle methods in React
 
