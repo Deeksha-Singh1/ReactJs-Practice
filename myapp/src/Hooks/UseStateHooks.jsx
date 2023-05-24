@@ -11,6 +11,15 @@ const UseStateHooks = () => {
       lastName : ''
     });
 
+    const [items, setItems] = useState([]);
+
+    const addItem = () =>{
+      setItems([...items,{
+        id:items.length,
+        value:Math.floor(Math.random() *15)
+      }])
+    }
+
   const stateHandler = () =>{
       setName("Bhadauria")
       setCount("500")
@@ -47,13 +56,24 @@ const UseStateHooks = () => {
         <input type="text" value={myName.firstName}  onChange={changeMyName}/>
 
         <input type="text" value={myName.lastName}  onChange={(event)=>{
-    setMyName({...myName,lastName: event.target.value
-    })
+            setMyName({...myName,lastName: event.target.value})
   }}/>
       </form>
       {myName.firstName}
       {myName.lastName}
+
+      <br />
+
+      <button onClick={addItem}>Add a Random number</button>
+
+      <ol>
+        {items.map((item)=> (
+          <li key ={item.value}> random number :{item.value} <br />size of list is :{item.id}</li>
+        ))}
+      </ol>
+
     </div>
+    
   )
 }
 
