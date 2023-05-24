@@ -19,5 +19,9 @@ Topics covered:
 17. Routing in React
 18. Lifecycle methods in React
 19. HTTP GET Request -  Fetch data from Rest API
+20. HTTP Post Request
+21. Hooks - useState()
+22. Hooks - useEffect()
+
 
 
