@@ -5,8 +5,8 @@ import UseStateHooks from './UseStateHooks'
 const App = () => {
   return (
     <div>
-      {/* <UseStateHooks/> */}
-      <UseEffect/>
+      <UseStateHooks/>
+      {/* <UseEffect/> */}
     </div>
   )
 }
